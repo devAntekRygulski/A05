@@ -3,6 +3,8 @@
 PART 1 EDA
 
 1. Data quality
+
+![ss1](https://github.com/devAntekRygulski/A05/ss1?raw=true)
  
  There are 11 columns:
  Categorical: DISTRICT_TYPE, DISTRICT_NAME, ACADEMIC_YEAR, DEMO_CATEGORY, STUDENT_POPULATION, AWARD_CATEGORY
@@ -295,13 +297,21 @@ STUDENT_POPULATION ['None Reported' 'Black or African American'
 AWARD_CATEGORY ["Bachelor's Degree - Did Not Transfer" 'Associate Degree'
  'Community College Certificate' "Bachelor's Degree - Transferred"]
 
+![ss2](https://github.com/devAntekRygulski/A05/ss2?raw=true)
+
  The range of the numerical columns is as follows:
 
  DISTRICT_CODE: min = 110017, max = 5872769
+ 
  WAGE_YEAR1: min = 0, max = 97993
+ 
  WAGE_YEAR2: min = 0, max = 132847
+ 
  WAGE_YEAR3: min = 0, max = 146728
+ 
  WAGE_YEAR4: min = 0, max = 153910
+
+![ss3](https://github.com/devAntekRygulski/A05/ss3?raw=true)
 
  No the numerical values are not normally distributed. The DISTRICT_CODE
  distribution is irregular with one range of values being the most common. The  WAGE_YEAR1, WAGE_YEAR2, WAGE_YEAR3, WAGE_YEAR4 columns are right-skewed with most of the values being 0 for all of these features.
@@ -329,5 +339,6 @@ DISTRICT_TYPE <-> DISTRICT_NAME: District type is assigned basing on the distric
 DEMO_CATEGORY <-> STUDENT_POPULATION: the STUDENT_POPULATION is a more specififed description of the typer of demographic in DEMO_CATEGORY
 
 AWARD_CATEGORY <-> WAGE_YEAR1–WAGE_YEAR4: Higher level of education generally mean higher avergae wages. More on this relation ship in part 3.
+
 
 
