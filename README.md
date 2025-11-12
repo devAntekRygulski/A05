@@ -311,16 +311,18 @@ AWARD_CATEGORY ["Bachelor's Degree - Did Not Transfer" 'Associate Degree'
 The meaning and relations of the columns:
 
 Column name     Meaning
-DISTRICT_TYPE	The type of the district
-DISTRICT_NAME	District identifier
-DISTRICT_CODE	Numeric district code
-ACADEMIC_YEAR	Year of record (all values 2018-2019)
-DEMO_CATEGORY	Type of demographic (race, gender, etc.)
-STUDENT_POPULATION	Group name within given demographic category e.g., “Black or African American” under Race
-AWARD_CATEGORY	Level of degree or certificate earned
-WAGE_YEAR1–WAGE_YEAR4	Earnings in first to fourth year after graduation
+
+DISTRICT_TYPE	 The type of the district
+DISTRICT_NAME	 District identifier
+DISTRICT_CODE	 Numeric district code
+ACADEMIC_YEAR	 Year of record (all values 2018-2019)
+DEMO_CATEGORY	 Type of demographic (race, gender, etc.)
+STUDENT_POPULATION	 Group name within given demographic category e.g., “Black or African American” under Race
+AWARD_CATEGORY	 Level of degree or certificate earned
+WAGE_YEAR1–WAGE_YEAR4	 Earnings in first to fourth year after graduation
 
 Significant relationships:
 DISTRICT_TYPE <-> DISTRICT_NAME: District type is assigned basing on the district_name and what type of establishmnet it is.
 DEMO_CATEGORY <-> STUDENT_POPULATION: the STUDENT_POPULATION is a more specififed description of the typer of demographic in DEMO_CATEGORY
+
 AWARD_CATEGORY <-> WAGE_YEAR1–WAGE_YEAR4: Higher level of education generally mean higher avergae wages. More on this relation ship in part 3.
