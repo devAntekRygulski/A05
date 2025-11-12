@@ -325,7 +325,9 @@ Column name     Meaning
 
 Significant relationships:
 DISTRICT_TYPE <-> DISTRICT_NAME: District type is assigned basing on the district_name and what type of establishmnet it is.
+
 DEMO_CATEGORY <-> STUDENT_POPULATION: the STUDENT_POPULATION is a more specififed description of the typer of demographic in DEMO_CATEGORY
 
 AWARD_CATEGORY <-> WAGE_YEAR1–WAGE_YEAR4: Higher level of education generally mean higher avergae wages. More on this relation ship in part 3.
+
 
